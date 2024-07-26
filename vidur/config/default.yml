@@ -28,6 +28,7 @@ synthetic_request_generator:
   min_tokens: 1024
   prefill_to_decode_ratio: 10
   num_requests: 128
+  revolving_generation: false
 
 trace_request_generator:
   trace_file: ./data/processed_traces/sydney_enterprise.csv
